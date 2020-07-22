@@ -65,6 +65,8 @@ libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev unzip
 
 RUN apt-get install -y gcc-c++ gdb
 
+RUN apt-get install -y gdb
+
 #gdbserver
 RUN apt-get install -y gdb-gdbserver
 
